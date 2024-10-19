@@ -1,0 +1,79 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: rgb(255, 132, 100);
+    background: linear-gradient(
+    90deg,
+        rgba(255, 132, 100, 1) 0%,
+        rgba(253, 105, 165, 1) 100%
+    );
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-body {
+    background: transparent;
+    backdrop-filter: blur(50px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); 
+    padding: 25px;
+    border: 3px solid gold;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-body h1 {
+    font-size: 80px;
+}
+
+.card-but button {
+    color: black;
+    padding: 15px 100px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+button#inc {
+    width: 100%;
+    background: palevioletred;
+}
+button#inc:hover {
+    background: rgba(128, 0, 128, 0.971);
+    color: #fff;
+}
+
+button#dec {
+    width: 100%;
+    background: palevioletred;
+}
+button#dec:hover {
+    background: rgba(128, 0, 128, 0.971);
+    color: #fff;
+}
+
+button#reset {
+    width: 100%;
+    background: #f6e58f ;
+}
+button#reset:hover {
+    background: #f79f1f;
+    color: #fff;
+}

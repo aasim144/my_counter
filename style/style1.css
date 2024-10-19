@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    background: lightgreen;
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{
+    margin-top: 25px;
+    text-align: center;
+}
+.wrapper{
+    margin-top: 35px;
+    margin-left: 500px;
+    width: 480px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper #inputbox{
+    align-items: center;
+}
+.wrapper .placeholder{
+    margin-left: 20px;;
+}
+.wrapper .inputbox #place1 {
+    color: black;
+    height: 30px;
+    width: 400px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+.wrapper .inputbox #place2 {
+    color: black;
+    height: 30px;
+    width: 400px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+.wrapper .inputbox #place3 {
+    color: black;
+    height: 30px;
+    width: 400px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+.wrapper .inputbox #place4 {
+    color: black;
+    height: 30px;
+    width: 400px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+.wrapper .class #101 { 
+    color: black;
+}
